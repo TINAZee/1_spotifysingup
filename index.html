@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Spotify</title>
 </head>
 <body>
@@ -18,23 +19,35 @@
         
             <form>
                 <div class="form-row">
-                    <div class="facebook">continue with facebook</button></div>
-                    <div class="apple">continue" "with apple</button></div>
+                    <div class="socialfirst">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <div class="facebook">continue with facebook</button></div>
+                    </div>
+                    <div class="socialfirst">
+                        <a href="#" class="fa fa-dribbble"></a>
+                        <div class="apple">continue with apple</button></div>
+                    </div>
                     <div class="phone">continue with phone number</button></div>
+                    
                 </div>
                 <div class="form-row">
-                    <hr>
-                    <span>or</span>
-                    <hr>
+                    <div class="firsthr">
+                        <hr>   
+                        <span>or</span>
+                        <hr>
+                    </div>
                 </div>
                 <div class="form-row">
                     <input type="email" name="email"placeholder="Email address or username">
                     <input type="password" name="email"placeholder="Password">
                 </div>
                 <div class="form-row">
-                    <input type="checkbox" id="remember" name="rememberme" value="Car">
-                    <label for="remember"> Remember me</label><br>
-                    <div class="login">log in</button></div>
+                    <div class="remember">
+                        <input type="checkbox" id="remember" name="rememberme" value="Car">
+                        <label for="remember"> Remember me</label><br>
+                    </div>
+                        <div class="login">log in</button></div>
+                    
                 </div>
                 <div class="form-row">
                     <div class="forgot">Forgot your password?</button></div>
@@ -43,10 +56,13 @@
                     <hr>
                 </div>
                 <div class="form-row">
-                    <div class="Account">don't have an account?</button></div>
+                    <div class="account">don't have an account?</button></div>
                 </div>
                 <div class="form-row">
                     <div class="singup">sing up for spotify</button></div>
+                </div>
+                <div class="form-row">
+                    <hr>
                 </div>
 
             </form>

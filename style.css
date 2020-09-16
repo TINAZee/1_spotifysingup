@@ -11,15 +11,15 @@ body {
     background-color:#9D7CFF;
 }
 @font-face {
-    font-family: spotify;
-    src: url(sansation_light.woff);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    src: url(./spotify.otf);
  }
     .container {
         background-color: #556677;
         margin-top: 80px;
         display: inline-block;
-        width: 1000px;
-        margin-left:calc( (100% - 1000px) / 2 );
+        width: 800px;
+        margin-left:calc( (100% - 800px) / 2 );
         border: 3px solid black;
         }
         .top {
@@ -50,7 +50,7 @@ body {
             .top> img {
                 
                 position: absolute;
-                left: 400px;
+                left: 330px;
             }
 
             .top> .left {
@@ -62,8 +62,7 @@ body {
                 font-size: 30px;
                 position: absolute;
                 top: 0;
-                left: 0;
-                margin-left: 900px;
+                left: 680px;
                 color: #ffffff;
                 background-color: #B2B3B4;
                 cursor: pointer;
@@ -79,8 +78,7 @@ body {
                 font-size: 30px;
                 position: absolute;
                 top: 0;
-                left: 0;
-                margin-left: 950px;
+                left: 730px;
                 color: #ffffff;
                 background-color: #B2B3B4;
                 cursor: pointer;
@@ -108,28 +106,148 @@ body {
                     text-align: center;
                     font-family: spotify;
                 }
-                    form > .form-row > .facebook {
+                    form > .form-row > .socialfirst{
+                        position: relative;
+                    }
+
+                    form > .form-row > .socialfirst > .facebook {
                         width: 100%;
                         text-align: center;
                         text-transform: uppercase;
                         color: #ffffff;
                         background-color: #3B5998;
-                        font-size: 15px;
+                        font-size: 13px;
                         margin-bottom:5px;
-                        line-height: 45px;
+                        line-height: 30px;
                         cursor: pointer;
                         border-radius: 25px;
+                        word-spacing: 3px;
+                    
                     }
-                    form > .form-row > .apple {
+                        form > .form-row > .socialfirst > .fa {
+                            padding: 4px;
+                            font-size: 13px;
+                            width: 20px;
+                            text-align: center;
+                            text-decoration: none;
+                            margin: 5px 2px;
+                            position: absolute;
+                            top: 0;
+                            left: 80px;
+                            
+                        }
+                        
+                        .fa-facebook {
+                            background: #3B5998;
+                            color: white;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                        }
+                    form > .form-row > .socialfirst >.apple {
                         width: 100%;
                         text-align: center;
                         text-transform: uppercase;
                         color: #ffffff;
                         background-color: black;
-                        font-size: 15px;
+                        font-size: 13px;
                         margin-bottom:5px;
-                        line-height: 45px;
+                        line-height: 30px;
                         cursor: pointer;
                         border-radius: 25px;
+                        word-spacing: 3px;
                     }
-                 
+                        .fa-dribbble {
+                            background: black;
+                            color: white;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                        }
+                    form > .form-row > .phone {
+                        width: 100%;
+                        text-align: center;
+                        text-transform: uppercase;
+                        color: black;
+                        background-color: #ffffff;
+                        font-size: 13px;
+                        margin-bottom:5px;
+                        line-height: 30px;
+                        cursor: pointer;
+                        border-radius: 25px;
+                        border: 2px solid #B2B3B5;
+                        word-spacing: 3px;
+                    }
+                    form > .form-row > .firsthr>* {
+                        display: inline-block;
+                        float: left;
+                        width: 184px;
+                        text-align: center;
+                        margin-top: 15px;
+                    }
+                    form > .form-row > .firsthr > span {
+                        width: 30px;
+                        text-transform: uppercase;
+                        margin-top: 5px;
+                    }
+                    form > .form-row > input {
+                        width: 100%;
+                        height: 35px;
+                        margin-top: 5px;
+                    }
+                
+                    form > .form-row > .login {
+                        display: inline;
+                        width: 50%;
+                        float: right;
+                        text-align: center;
+                        text-transform: uppercase;
+                        color: #ffffff;
+                        background-color: #1DB954;
+                        font-size: 13px;
+                        margin-bottom:5px;
+                        line-height: 30px;
+                        cursor: pointer;
+                        border-radius: 25px;
+                        word-spacing: 3px; 
+
+                    }
+                    form > .form-row > .remember {
+                        display: inline;
+                        width: 50%;
+                        float: left;
+                        text-align: left;
+                        
+                    }
+                   
+                    form > .form-row > .forgot {
+                        width: 100%;
+                        font-size: smaller;
+                        color: #1DB954;
+                        margin-bottom: 20px;
+                    }
+                    form > .form-row > .account {
+                        width: 100%;
+                        font-size: small;
+                        font-weight: bold;
+                        color: black;
+                        text-transform: capitalize;
+                    }
+                    form > .form-row > .singup {
+                        width: 100%;
+                        text-align: center;
+                        text-transform: uppercase;
+                        color: black;
+                        background-color: #ffffff;
+                        font-size: 13px;
+                        margin-bottom:5px;
+                        line-height: 30px;
+                        cursor: pointer;
+                        border-radius: 25px;
+                        border: 2px solid #B2B3B5;
+                        word-spacing: 3px; 
+                    }
+                    form > .form-row > hr {
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                    }
